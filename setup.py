@@ -21,8 +21,7 @@ requirements = [
     'pyjwt',
     'oauthlib',
     'Async-OAuthlib',
-    'cachetools',
-    'discord.py',
+    'cachetools'
 ]
 
 
@@ -39,12 +38,12 @@ extra_requirements = {
 
 
 setup(
-    name='Quart-Discord',
+    name='Quart-Discordv2',
     version=__get_version(),
-    url='https://github.com/jnawk/Quart-Discord',
+    url='https://github.com/InvalidLenni/Quart-Discordv2',
     license='MIT',
-    author='Philip Dowie',
-    author_email='philip@jnawk.nz',
+    author='Lennard M.',
+    author_email='lenni.ghost.m@gmail.com',
     description='Discord OAuth2 extension for Quart.',
     long_description=__doc__,
     packages=find_packages(),
